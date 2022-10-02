@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -8,19 +8,21 @@
 </head>
 
 <body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-red-500">
-
-    <div class="w-11/12 mx-auto my-7 p-7 rounded-lg bg-slate-600">
-        <div class="mx-auto w-full rounded-lg bg-slate-500 p-5 mb-3">
-            <h2 class="font-bold text-xl bg-red-400 rounded-full w-fit px-3">About Me</h2>
+    <!-- MAIN SECTION -->
+    <section class="w-11/12 mx-auto my-7 p-7 rounded-lg bg-slate-600">
+        <!-- section about -->
+        <section class="mx-auto w-full rounded-lg bg-slate-500 p-5 mb-3 lg:text-left md:text-left sm:text-center">
+            <h2 class="font-bold text-3xl bg-red-400 rounded-full w-fit px-3 py-1 lg:mx-0 md:mx-auto sm:mx-auto sm">Arya Wijaya</h2>
             <br>
             <p>My name Arya wijaya, I am system information student in Universitas pembangunan jaya. I am gamer &
                 programmer.</p>
-        </div>
-        <div class="mx-auto w-full rounded-lg bg-slate-500 p-5 mb-3">
+        </section>
+        <!-- section personal info -->
+        <section class="mx-auto w-full rounded-lg bg-slate-500 p-5 mb-3">
             <h2 class="font-bold text-xl bg-red-400 rounded-full w-fit px-3">Personal Information</h2>
             <br>
             <div class="flex flex-wrap gap-x-0 mx-auto">
-                <div class="lg:w-1/3 md:w-1/2 sm:w-full p-2 bg-purple-600 rounded-lg">
+                <div class="lg:w-1/3 md:w-1/2 sm:w-full p-2 rounded-lg">
                     <li>
                         <span class="font-medium text-teal-400">My Education :</span>
                         <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
@@ -30,7 +32,7 @@
                         </ul>
                     </li>
                 </div>
-                <div class="lg:w-1/3 md:w-1/2 sm:w-full p-2 bg-purple-600 rounded-lg">
+                <div class="lg:w-1/3 md:w-1/2 sm:w-full p-2 rounded-lg">
                     <li>
                         <span class="font-medium text-teal-400">My Skills : </span>
                         <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
@@ -41,7 +43,7 @@
                         </ul>
                     </li>
                 </div>
-                <div class="lg:w-1/3 md:w-1/2 sm:w-full p-2 bg-purple-600 rounded-lg">
+                <div class="lg:w-1/3 md:w-1/2 sm:w-full p-2 rounded-lg">
                     <li>
                         <span class="font-medium text-teal-400">My Hobby : </span>
                         <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
@@ -53,67 +55,118 @@
                     </li>
                 </div>
             </div>
-        </div>
-        <div class="mx-auto w-full rounded-lg bg-slate-500 p-5 mb-3">
+        </section>
+        <!-- section portfolio -->
+        <section class="mx-auto w-full rounded-lg bg-slate-500 p-5 mb-3">
             <h2 class="font-bold text-xl bg-red-400 rounded-full w-fit px-3">Portfolio</h2>
             <br>
-            <div class="grid w-full lg:grid-cols-3 grid-flow-row gap-3 md:grid-cols-2 sm:grid-cols-1 ">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-pink-400">
-                    <img class="w-full"
-                        src="https://images.unsplash.com/photo-1598449356475-b9f71db7d847?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            <div class="grid w-full gap-y-5 lg:grid-cols-3 grid-flow-row gap-3 md:grid-cols-2 sm:grid-cols-1 ">
+                <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-400">
+                    <img class="w-full hover:shadow-2xl cursor-pointer"
+                        src="assets/portfolio_1.png"
                         alt="Sunset in the mountains">
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Nama Portfolio</div>
+                        <div class="font-bold text-xl mb-2">MBKM SIF UPJ</div>
                         <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
-                            et perferendis eaque, exercitationem praesentium nihil.
+                            Website yang dibuat untuk Prodi Sistem Informasi UPJ, yang dibangun untuk pendataan dan pendaftaran mahasiswa yang ikut MBKM.
                         </p>
                     </div>
                     <div class="px-6 pt-4 pb-2 float-right">
+                        <a href="https://mbkmsifupj.netlify.app/">
                         <button
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">See
-                            Details</button>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-green-400" >See
+                            Details</button></a>
                     </div>
                 </div>
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-pink-400">
-                    <img class="w-full"
-                        src="https://images.unsplash.com/photo-1598449356475-b9f71db7d847?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-400">
+                    <img class="w-full hover:shadow-2xl cursor-pointer"
+                        src="assets/portfolio_2.png"
                         alt="Sunset in the mountains">
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Nama Portfolio</div>
+                        <div class="font-bold text-xl mb-2">Tiga Dara gypsum</div>
                         <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
-                            et perferendis eaque, exercitationem praesentium nihil.
+                            Website untuk UMKM gypsum yang bernama Tigadaragypsum, yang dibuat menggunakan HTML, CSS, serta Library Bootstrap Component.
                         </p>
                     </div>
                     <div class="px-6 pt-4 pb-2 float-right">
+                        <a href="https://tigadaragypsum.netlify.app/">
                         <button
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">See
-                            Details</button>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-green-400" >See
+                            Details</button></a>
                     </div>
                 </div>
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-pink-400">
-                    <img class="w-full"
-                        src="https://images.unsplash.com/photo-1598449356475-b9f71db7d847?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-400">
+                    <img class="w-full hover:shadow-2xl cursor-pointer"
+                        src="assets/portfolio_3.png"
                         alt="Sunset in the mountains">
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Nama Portfolio</div>
+                        <div class="font-bold text-xl mb-2">Lintas</div>
                         <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
-                            et perferendis eaque, exercitationem praesentium nihil.
+                            Website untuk travel agency bernama lintas, yang dibuat menggunakan HTML, CSS, serta Library Bootstrap Component.
                         </p>
                     </div>
                     <div class="px-6 pt-4 pb-2 float-right">
+                        <a href="https://lintas.netlify.app/">
                         <button
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">See
-                            Details</button>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-green-400" >See
+                            Details</button></a>
                     </div>
                 </div>
-
+                <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-400">
+                    <img class="w-full hover:shadow-2xl cursor-pointer"
+                        src="assets/portfolio_4.png"
+                        alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Visualismkey</div>
+                        <p class="text-gray-700 text-base">
+                            Website untuk branding agency bernama Visualismkey, yang dibuat menggunakan HTML, CSS, serta Library Bootstrap Component.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2 float-right">
+                        <a href="https://visualismkey.netlify.app/">
+                        <button
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-green-400" >See
+                            Details</button></a>
+                    </div>
+                </div>
+                <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-400">
+                    <img class="w-full hover:shadow-2xl cursor-pointer"
+                        src="assets/portfolio_5.png"
+                        alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Personal Portfolio</div>
+                        <p class="text-gray-700 text-base">
+                            Portfolio personal untuk diri saya sendiri, dibangun menggunakan HTML dan Vanilla CSS. serta Library Bootstrap dan Favicon.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2 float-right">
+                        <a href="https://aryaw1jaya.netlify.app/">
+                        <button
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-green-400" >See
+                            Details</button></a>
+                    </div>
+                </div>
+                <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-400">
+                    <img class="w-full hover:shadow-2xl cursor-pointer"
+                        src="assets/portfolio_6.png"
+                        alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">UTS PIBS</div>
+                        <p class="text-gray-700 text-base">
+                            UTS Mata kuliah Pemrograman berbasis bahasa script, layouting menggunakan semantic HTML dan Vanilla Css.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2 float-right">
+                        <a href="https://uts-pibs-arya.netlify.app/">
+                        <button
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-green-400  ">See
+                            Details</button></a>
+                    </div>
+                </div>
             </div>
 
 
-        </div>
+        </section>
 </body>
 
 </html>
